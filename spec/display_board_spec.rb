@@ -180,9 +180,9 @@ describe "#display_board in 'lib/display_board.rb" do
       # entirely filled with Os?
       board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"] 
       
-      expect(rows[0]).to eq("  | X | X ")
+      expect(rows[0]).to eq(" O | O | O ")
       expect(rows[1]).to eq("-----------")
-      expect(rows[2]).to eq(" X | X | X ")
+      expect(rows[2]).to eq(" O | X | X ")
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" X | X | X ")
 
